@@ -27,8 +27,6 @@ gpcrn has knowledge of the following numbering schemes:
 * GPCRdb (Class D)
 * Oliveira
 * Baldwin-Schwartz
-* Class B GPCR Extracellular domain
-* Common arrestin numbering scheme
 
 gpcrn accepts the following ways of input:
 * standard input: `gpcrn`
