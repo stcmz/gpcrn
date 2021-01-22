@@ -1,4 +1,4 @@
-CC=g++ -O3 -static-libstdc++
+CC=g++ -O3 -static
 BIN_NAME=gpcrn
 OBJ_DIR=obj
 BIN_DIR=bin
