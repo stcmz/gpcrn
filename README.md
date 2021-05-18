@@ -1,5 +1,7 @@
 gpcrn
 =====
+![build workflow](https://github.com/stcmz/gpcrn/actions/workflows/build.yml/badge.svg)
+![release workflow](https://github.com/stcmz/gpcrn/actions/workflows/release.yml/badge.svg)
 
 gpcrn is a cross-platform offline database for GPCR numbering.
 
