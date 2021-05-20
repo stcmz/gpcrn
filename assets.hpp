@@ -6,7 +6,7 @@
 using namespace std;
 
 // string_index => string
-extern array<string, 674> string_table;
+extern array<string, 699> string_table;
 
 // scheme_index => scheme_numbering_offset, scheme_numbering_length, scheme_names
 extern array<tuple<size_t, size_t, vector<string>>, 12> schemes;
