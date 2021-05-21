@@ -1,9 +1,9 @@
-name: C++ Build
+name: C++/C# Build
 
 on: [ push, pull_request ]
 
 jobs:
-  build:
+  build-c++:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,3 +21,19 @@ jobs:
 
     - name: Install
       run: sudo cmake --install build
+
+  build-c#:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build
+      run: dotnet build --no-restore
+
+    - name: Test
+      run: dotnet test --no-build --verbosity normal
