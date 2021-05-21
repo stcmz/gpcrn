@@ -3,7 +3,7 @@ gpcrn
 ![build workflow](https://github.com/stcmz/gpcrn/actions/workflows/build.yml/badge.svg)
 ![release workflow](https://github.com/stcmz/gpcrn/actions/workflows/release.yml/badge.svg)
 
-gpcrn is a cross-platform offline database for GPCR numbering.
+gpcrn is a command line offline database for GPCR numbering.
 
 
 Features
@@ -115,7 +115,7 @@ Then add the path of the `boost_1_75_0` directory the to the BOOST_ROOT environm
 This project uses cross-platform build system CMake to build from source. It detects your environment and decides the most appropriate compiler toolset. The minimum version of CMake required is `3.20`. To build, simply run
 ```
 cmake -B build
-cmake --build build
+cmake --build build --config Release
 ```
 
 The generated objects and executable will be placed in the `build` folder.
