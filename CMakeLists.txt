@@ -8,8 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
 # Create the target and add source files
 add_executable(${PROJECT_NAME}
-  assets.cpp
-  main.cpp
+  src/assets.cpp
+  src/main.cpp
 )
 
 # https://cmake.org/cmake/help/latest/module/FindBoost.html
