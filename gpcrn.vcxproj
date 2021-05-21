@@ -79,9 +79,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="Makefile" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="assets.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
