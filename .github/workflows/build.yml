@@ -3,7 +3,7 @@ name: C++/C# Build
 on: [ push, pull_request ]
 
 jobs:
-  build-c++:
+  build-cxx:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,7 +22,7 @@ jobs:
     - name: Install
       run: sudo cmake --install build
 
-  build-c#:
+  build-dotnet:
     runs-on: ubuntu-latest
 
     steps:
