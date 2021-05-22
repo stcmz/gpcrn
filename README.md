@@ -35,7 +35,7 @@ gpcrn accepts the following ways of input:
 * file input: `gpcrn -f queryfile`
 * input redirect: `gpcrn -f <(cat queryfile)`
 * pipe input: `cat queryfile | gpcrn`
-* as script file with header: `#!/usr/bin/gpcrn -f` (Linux/Unix only)
+* as script file with header: `#!/usr/local/bin/gpcrn -f` (Linux/Unix only)
 
 Misc options:
 * match colorization: `--color auto`
