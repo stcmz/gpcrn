@@ -527,7 +527,7 @@ int main(int argc, char* argv[])
 		{
 			cout << "Usage: " << argv[0] << " [--query] <query1> [<query2> <query3> ...] [options]" << endl;
 			cout << "       " << argv[0] << " --file <query-file> [options]" << endl;
-			cout << "GPCR numbering tool by ryan@imozo.cn" << endl;
+			cout << "GPCR numbering tool by Maozi Chen" << endl;
 			cout << "All data are downloaded from https://GPCRdb.org/structure/" << endl;
 			cout << all_options << endl;
 			cout << "Examples:" << endl;
