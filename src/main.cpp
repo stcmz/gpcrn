@@ -598,7 +598,7 @@ int main(int argc, char* argv[])
 
 		if (vm.count("version"))
 		{
-			cout << "gpcrn version: 1.0.7 (2021-05-20)" << endl;
+			cout << "gpcrn version: 1.0.8 (2021-06-02)" << endl;
 			cout << "GPCRdb version: 2021-05-14" << endl;
 			return 0;
 		}
